@@ -2,7 +2,7 @@
   "name": "store-be",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon --exec babel-node server.js",
     "start": "node server.js",
