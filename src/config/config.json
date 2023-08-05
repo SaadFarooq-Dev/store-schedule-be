@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "dev",
-    "password": "dev",
+    "username": "postgres",
+    "password": "pass123",
     "database": "store_be",
-    "host": "localhost",
+    "host": "127.0.0.1",
     "dialect": "postgres"
 
   },
@@ -15,11 +15,16 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "store_be_production",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "default",
+    "password": "kIe25ZqdVTyE",
+    "database": "verceldb",
+    "host": "ep-broad-sea-38021119-pooler.us-east-1.postgres.vercel-storage.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
 

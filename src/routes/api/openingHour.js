@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { createStoreOpeningHour, deleteStoreOpeningHours, getStoreOpeningHours, updateStoreOpeningHour } from "../../controllers/openingHour";
-import isStoreOwner from "../../helpers/isStoreOwner";
-import { authenticateJWT } from "../../middleware/jwtAuthenticate";
+import { createStoreOpeningHour, deleteStoreOpeningHours, getStoreOpeningHours, updateStoreOpeningHour } from "../../controllers/openingHour.js";
+import isStoreOwner from "../../helpers/isStoreOwner.js";
+import { authenticateJWT } from "../../middleware/jwtAuthenticate.js";
 
 const openingHourRouter = Router({mergeParams: true})
 

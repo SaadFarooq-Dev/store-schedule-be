@@ -4,9 +4,9 @@ import express from 'express';
 import cors from 'cors'
 import morgan from 'morgan'
 
-import errorHandler from './middleware/errorHandler';
-import _initializePassport from './config/passport'
-import router from './routes';
+import errorHandler from './middleware/errorHandler.js';
+import _initializePassport from './config/passport.js'
+import router from './routes/index.js';
 
 const app = express();
 

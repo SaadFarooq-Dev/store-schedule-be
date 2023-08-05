@@ -1,6 +1,6 @@
 import passport from 'passport'
-import jwtStrategy from './passport/jwtStrategy'
-import { localStrategyLogin } from './passport/localStrategy'
+import jwtStrategy from './passport/jwtStrategy.js'
+import { localStrategyLogin } from './passport/localStrategy.js'
 
 passport.use('login', localStrategyLogin)
 passport.use(jwtStrategy)

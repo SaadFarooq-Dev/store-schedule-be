@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { createStore, deleteStore, getAllUserStores, getStore, updateStore } from "../../controllers/store";
-import { authenticateJWT } from "../../middleware/jwtAuthenticate";
+import { createStore, deleteStore, getAllUserStores, getStore, updateStore } from "../../controllers/store.js";
+import { authenticateJWT } from "../../middleware/jwtAuthenticate.js";
 
 const storeRouter = Router()
 

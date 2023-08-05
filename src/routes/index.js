@@ -1,8 +1,8 @@
 import { Router } from 'express'
 
-import authRouter from './api/auth'
-import openingHourRouter from './api/openingHour'
-import storeRouter from './api/store'
+import authRouter from './api/auth.js'
+import openingHourRouter from './api/openingHour.js'
+import storeRouter from './api/store.js'
 
 const router = Router()
 

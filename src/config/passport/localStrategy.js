@@ -1,6 +1,6 @@
 import passportLocal from 'passport-local'
 
-import model from '../../models';
+import model from '../../models/index.js';
 
 const { User } = model;
 

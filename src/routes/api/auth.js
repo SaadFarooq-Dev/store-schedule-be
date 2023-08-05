@@ -1,7 +1,7 @@
 import { Router } from "express";
 import passport from "passport";
-import { loginUser, registerUser, verifyToken } from "../../controllers/auth";
-import { authenticateJWT } from "../../middleware/jwtAuthenticate";
+import { loginUser, registerUser, verifyToken } from "../../controllers/auth.js";
+import { authenticateJWT } from "../../middleware/jwtAuthenticate.js";
 
 const authRouter = Router()
 

@@ -1,8 +1,8 @@
 import 'dotenv/config'
 
 import request from 'supertest';
-import app from "../.."
-import models from '../../models';
+import app from "../../index.js"
+import models from '../../models/index.js';
 import jwt from 'jsonwebtoken'
 
 const { User } = models

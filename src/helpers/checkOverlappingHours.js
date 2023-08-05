@@ -1,5 +1,5 @@
 import { Sequelize } from 'sequelize';
-import model from '../models';
+import model from '../models/index.js';
 
 const { OpeningHours } = model
 

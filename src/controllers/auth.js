@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 
-import model from '../models';
+import model from '../models/index.js';
 
 const { User } = model
 

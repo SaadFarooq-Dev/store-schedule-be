@@ -1,5 +1,5 @@
-import checkOverlappingHours from '../helpers/checkOverlappingHours';
-import model from '../models';
+import checkOverlappingHours from '../helpers/checkOverlappingHours.js';
+import model from '../models/index.js';
 
 const { OpeningHours, sequelize } = model
 
