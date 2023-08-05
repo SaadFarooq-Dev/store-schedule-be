@@ -2,12 +2,12 @@
   "version": 2,
   "name": "store-schedule-be",
   "builds": [
-     { "src": "server.js", "use": "@now/node" }
+     { "src": "./src/index.js", "use": "@now/node" }
   ],
   "routes": [
    {
      "src": "/(.*)",
-     "dest": "server.js"
+     "dest": "./src/index.js"
    }
  ]
 }
