@@ -1,4 +1,6 @@
-{
+import 'dotenv/config'
+
+export default {
   "development": {
     "username": "postgres",
     "password": "pass123",
@@ -15,10 +17,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "default",
-    "password": "kIe25ZqdVTyE",
-    "database": "verceldb",
-    "host": "ep-broad-sea-38021119-pooler.us-east-1.postgres.vercel-storage.com",
+    "username": process.env.POSTGRES_USER,
+    "password": process.env.POSTGRES_PASSWORD,
+    "database": process.env.POSTGRES_DATABASE,
+    "host": process.env.POSTGRES_HOST,
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {

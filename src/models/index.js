@@ -2,7 +2,7 @@ import * as pg from 'pg';
 import fs from 'fs';
 import path from 'path';
 import Sequelize from 'sequelize';
-import enVariables from '../config/config.json';
+import enVariables from '../config/config.js';
 
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
