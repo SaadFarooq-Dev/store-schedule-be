@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
-    "build" : "babel ./server.js --out-file server-build.js",
+    "build" : "babel ./server.js --out-file server-build.js && npm run prod",
     "prod": "node server-build.js",
     "dev": "nodemon --exec babel-node server.js",
     "db:create": "npx sequelize-cli db:create",
