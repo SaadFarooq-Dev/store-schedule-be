@@ -1,3 +1,4 @@
+import * as pg from 'pg';
 import fs from 'fs';
 import path from 'path';
 import Sequelize from 'sequelize';
